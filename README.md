@@ -1,3 +1,3 @@
-# first Slack Bot
+# Welcome to My slack Bot 
 
-this is my slack bot
+This slackbot is available in apps section in 

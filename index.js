@@ -22,8 +22,20 @@ app.command("/bot_name-catfact", async ({ ack, respond }) => {
     await respond({ text: "Failed to fetch a cat fact." });
   }
 });
+app.command("/about", async ({ ack, respond}) => {
+  await ack();
+  await respond({
+     text: "🤖 *About This Bot*\nHello User!do you want to know about Jazil Jafar VV.People pronouce as jazil.I am a Web Designer and Website builder.He lives in Kerala,India.Say in dm he loves :D"
+  });
+});
+app.command("/hello", async ({ ack, respond}) => {
+  await ack();
+  await respond({
+    text:" *Hello*\nHello Bro how are you doing.I am Jazil Jafars bot"
+  })
 
-// Start the app
+})
+
 (async () => {
   await app.start();
   console.log("Bot is running!");
