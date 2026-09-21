@@ -31,11 +31,15 @@ app.command("/about", async ({ ack, respond}) => {
 app.command("/hello", async ({ ack, respond}) => {
   await ack();
   await respond({
-    text:" *Hello*\nHello Bro how are you doing.I am Jazil Jafars bot"
+    text:" *Hello*\nHello What are you doing i am fine bro are you fine"
+  });
+});
+app.command("/whoami", async ({ ack, respond}) => {
+  await ack();
+  await respond({
+    text:" *Whoami*\nYou do not have root acess you are user"
   })
-
-})
-
+});
 (async () => {
   await app.start();
   console.log("Bot is running!");
