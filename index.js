@@ -13,7 +13,7 @@ app.command("/bot_name-ping", async ({ command, ack, respond }) => {
   const latency = Date.now() - start;
   await respond({ text: `Pong!\nLatency: ${latency}ms` });
 });
-app.command("/bot_name-catfact", async ({ ack, respond }) => {
+app.command("/jazil-catfact", async ({ ack, respond }) => {
   await ack();
   try {
     const response = await axios.get("https://catfact.ninja/fact");
@@ -22,13 +22,13 @@ app.command("/bot_name-catfact", async ({ ack, respond }) => {
     await respond({ text: "Failed to fetch a cat fact." });
   }
 });
-app.command("/about", async ({ ack, respond}) => {
+app.command("/about-jazil", async ({ ack, respond}) => {
   await ack();
   await respond({
      text: "🤖 *About This Bot*\nHello User!do you want to know about Jazil Jafar VV.People pronouce as jazil.I am a Web Designer and Website builder.He lives in Kerala,India.Say in dm he loves :D"
   });
 });
-app.command("/hello", async ({ ack, respond}) => {
+app.command("/hello-jazil", async ({ ack, respond}) => {
   await ack();
   await respond({
     text:" *Hello*\nHello What are you doing i am fine bro are you fine"
@@ -38,6 +38,12 @@ app.command("/whoami", async ({ ack, respond}) => {
   await ack();
   await respond({
     text:" *Whoami*\nYou do not have root acess you are user"
+  })
+});
+app.command("/player", async ({ ack, respond}) => {
+  await ack();
+  await respond({
+    text:" *Ronaldo*\n My favoirate player is Ronaldo"
   })
 });
 (async () => {
