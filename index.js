@@ -34,7 +34,7 @@ app.command("/hello-jazil", async ({ ack, respond}) => {
     text:" *Hello*\nHello What are you doing i am fine bro are you fine"
   });
 });
-app.command("/whoami", async ({ ack, respond }) => {
+app.command("/jazil-whoami", async ({ ack, respond }) => {
   await ack();
   await respond({
     text: "🔒 *Whoami*\nYou do not have root access. You are a standard user."
