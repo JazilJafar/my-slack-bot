@@ -12,7 +12,7 @@ This slackbot is only availbable for hackclub.
 
 4. /hello-jazil - say hello
 
-5. /whoami - hack
+5. /jazil-whoami - hack
 
 6. /player - my favourate player
 
