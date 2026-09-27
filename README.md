@@ -6,13 +6,15 @@ This slackbot is only availbable for hackclub.
 
 1. /bot_name-ping - Checks bot latency
 
-2. /bot_name-catfact - a cat fact
+2. /jazil-catfact - a cat fact
 
-3. /about - About
+3. /about-jazil - About
 
-4. /hello - say hello
+4. /hello-jazil - say hello
 
 5. /whoami - hack
+
+6. /player - my favourate player
 
 # install
 
